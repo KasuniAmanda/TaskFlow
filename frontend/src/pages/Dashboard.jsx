@@ -1,11 +1,14 @@
-function Dashboard() {
+function Dashboard(){
 
-  return (
-    <div>
-      <h1>Dashboard</h1>
-      <p>Welcome to TaskFlow</p>
-    </div>
-  );
+return(
+<div>
+
+<h1>Dashboard</h1>
+
+<p>Welcome to TaskFlow</p>
+
+</div>
+)
 
 }
 
