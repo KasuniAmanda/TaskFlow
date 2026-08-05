@@ -6,15 +6,15 @@ function MainLayout({children}){
 
   return(
 
-    <div>
+    <div className="min-h-screen bg-gray-100">
 
       <Navbar />
 
-      <div>
+      <div classname="flex">
 
         <Sidebar />
 
-        <main>
+        <main className="flex-1 p-8">
           {children}
         </main>
 
